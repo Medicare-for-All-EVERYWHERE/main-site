@@ -4,6 +4,14 @@ export const HeaderLinks = [
     url: "/",
   },
   {
+    text: "March",
+    url: "/march"
+  },
+  {
+    text: "Volunteer",
+    url: "/volunteer"
+  },
+  {
     text: "About",
     url: "/about",
     sublinks: [
