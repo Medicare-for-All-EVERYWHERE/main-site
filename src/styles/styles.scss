@@ -42,8 +42,13 @@ a:hover {
   color: $primary;
 }
 
+ol > li {
+  margin: 10px 0 10px 0;
+}
+
 .button {
   padding: 1rem 1.5rem 1rem 1.5rem;
+  margin: 10px 0 10px 0;
   background-color: $secondaryaccent;
   border-radius: 5px;
   color: white;
