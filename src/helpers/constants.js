@@ -8,18 +8,31 @@ export const HeaderLinks = [
     url: "/about",
     sublinks: [
       {
-        text: "Contact",
-        url: "/about/contact",
+        text: "Mission",
+        url: "/about/mission",
       },
       {
-        text: "FAQ",
-        url: "/about/faq",
+        text: "People",
+        url: "/about/people",
+      },
+      {
+        text: "Code of Conduct",
+        url: "/about/conduct",
+      },
+      {
+        text: "Media",
+        url: "/about/media",
+      },
+      {
+        text: "Contact",
+        url: "/about/contact",
       },
     ],
   },
   {
-    text: "Blog",
-    url: "/",
+    text: "Sign up",
+    url: "https://actionnetwork.org/forms/medicare-for-all-everywhere-action-takers?source=direct_link&",
+    class: "cta",
   },
 ];
 
@@ -29,11 +42,23 @@ export const AboutSidebarLinks = [
     url: "/about",
   },
   {
-    text: "Contact",
-    url: "/about/contact",
+    text: "Mission",
+    url: "/about/mission",
   },
   {
-    text: "FAQ",
-    url: "/about/faq",
+    text: "People",
+    url: "/about/people",
+  },
+  {
+    text: "Code of Conduct",
+    url: "/about/conduct",
+  },
+  {
+    text: "Media",
+    url: "/about/media",
+  },
+  {
+    text: "Contact",
+    url: "/about/contact",
   },
 ];
