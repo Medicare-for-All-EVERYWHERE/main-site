@@ -1,7 +1,11 @@
 import * as React from "react"
 import Layout from '../../components/Layout'
+import InfoCard from '../../components/InfoCard'
 import { AboutSidebarLinks } from '../../helpers/constants'
 import '../../styles/styles.scss'
+import Andre from '../../images/andre-stackhouse.jpg'
+import Terence from '../../images/terence-cudney.png'
+import Betty from '../../images/betty-toto.png'
 
 const PeoplePage = () =>
   <div className='Layout'>
@@ -10,11 +14,26 @@ const PeoplePage = () =>
       <h1>People</h1>
       <p>Medicare for All EVERYWHERE does not currently have a membership system, though our meetings and organizing spaces are open to anyone. We also do not currently have a governance structure though we seek consensus among our active volunteers. We are 100% volunteer led and have no paid staff.</p>
       <h2>Our co-founders</h2>
-      <ul>
-        <li>Andre Stackhouse</li>
-        <li>Terence Cudney</li>
-        <li>Betty Faye Doumas-Toto</li>
-      </ul>
+      <div className='row'>
+        <InfoCard
+          title="Andre Stackhouse"
+          link='https://captainstack.github.io/public-stackhouse'
+          description='Andre is the campaign director of Whole Washington and sits on the DSA Medicare for All National Steering Committee.'
+          image={Andre}
+        />
+        <InfoCard
+          title="Terence Cudney"
+          link='https://www.cudney4ma.com'
+          description='Terence is an independent candidate for the Massachussets State Senate and is on the November 2022 ballot.'
+          image={Terence}
+        />
+        <InfoCard
+          title="Betty Faye Doumas-Toto"
+          link='https://www.singlemindedforsinglepayer.com/'
+          description="Betty has cofounded or holds leadership positions across a number of healthcare justice organizations in California including Single Minded for Single Payer and California Poor People's Campaign."
+          image={Betty}
+        />
+      </div>
     </main>
     </Layout>
   </div>
