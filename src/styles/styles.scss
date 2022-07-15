@@ -21,23 +21,30 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, a {
+h1, h2, h3 {
   color: $primary;
   text-decoration: none;
 }
 
+a {
+  color: $secondaryaccent;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color .2s,background-color .1s,fill .1s;
+}
+
 h1 {
-  background-color: yellow;
+  background-color: $primaryaccent;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(68, 63, 63);
+  color: $primary;
 }
 
 .button {
   padding: 1rem 1.5rem 1rem 1.5rem;
-  background-color: #4f7177;
+  background-color: $secondaryaccent;
   border-radius: 5px;
   color: white;
   font-weight: bold;
@@ -45,6 +52,7 @@ a:hover {
   transition: transform 0.5s;
   &:hover {
     color: white;
+    background-color: $secondaryaccent;
     text-decoration: underline;
     transform: scale(0.95);
   }
@@ -114,8 +122,7 @@ aside {
 }
 
 .active {
-  color: $accent;
-  background-color: yellow;
+  background-color: $primaryaccent;
 }
 
 footer {
@@ -163,3 +170,24 @@ footer {
   flex-wrap: wrap;
 }
 
+.InfoCard {
+  outline: 1px solid lightgray;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  max-width: 200px;
+  p {
+    overflow-wrap: anywhere; 
+  }
+  margin: 10px;
+  padding: 12px;
+  color: rgb(88, 87, 87);
+  &:hover {
+    color: $darkprimary;
+    background-color: lighten($lightprimary, 12);
+    img {
+      opacity: .8;
+    }
+  }
+}

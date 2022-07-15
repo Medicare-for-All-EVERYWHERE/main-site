@@ -13,34 +13,17 @@ header {
   opacity: 0.9;
 
   a {
-    color: #000000;
+    color: $primary;
     font-size: 14pt;
+    font-weight: normal;
     transition: color 0.3s ease;
     text-decoration: none;
     text-transform: uppercase;
     width: auto;
     &:hover {
-      color: $accent;
-      // background-color: yellow;
-      border-bottom: 1px solid darkgrey;
+      background-color: $primaryaccent;
     }
   }
-
-  .cta {
-    background-color: #4f7177;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    box-shadow: 5px 5px 5px darkgrey;
-    transition: transform 0.5s;
-    &:hover {
-      color: white;
-      text-decoration: underline;
-      transform: scale(0.95);
-    }
-  }
-
 
   #HeaderLogo {
     background-image: url('../images/icon.png');
@@ -49,6 +32,7 @@ header {
     width: $headerHeight - 10;
     transition: transform 0.5s;
     &:hover {
+      background-color: transparent;
       border-bottom: none;
       transform: scale(0.95);
     }
@@ -60,10 +44,9 @@ header {
   }
 
   .active {
-    // text-decoration: underline;
-    border-bottom: 1px solid darkgrey;
+    border-bottom: 1px solid $secondaryaccent;
     text-underline-offset: 8px;
-    background-color: yellow;
+    background-color: $primaryaccent;
   }
   nav {
     display: flex;
