@@ -38,6 +38,10 @@ export const HeaderLinks = [
 
 export const AboutSidebarLinks = [
   {
+    text: "About",
+    url: "/about",
+  },
+  {
     text: "Mission",
     url: "/about/mission",
   },
