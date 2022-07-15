@@ -2,7 +2,7 @@ import * as React from "react"
 import { Helmet } from 'react-helmet'
 import Screenshot from '../images/screenshot.png'
 
-const Head = ({pageTitle, siteTitle = 'Medicare for All EVERYWHERE'}) =>
+const Head = ({pageTitle = 'Page', siteTitle = 'Medicare for All EVERYWHERE'}) =>
   <Helmet>
     <html lang="en" />
     <title>{pageTitle} | {siteTitle}</title>
