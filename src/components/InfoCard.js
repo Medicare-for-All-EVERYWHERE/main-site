@@ -12,7 +12,7 @@ const InfoCard = ({title, link, image, description}) =>
   <span className='InfoCard'>
     <div>
       {title ? <strong>{title}</strong> : null}
-      {image ? <img src={Map} alt={description}/> : null}
+      {image ? <img src={image} alt={description}/> : null}
       {description ? <p>{description}</p> : null}
     </div>
   </span>
