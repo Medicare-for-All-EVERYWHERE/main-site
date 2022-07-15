@@ -5,7 +5,7 @@ import '../../styles/styles.scss'
 
 const MissionPage = () =>
   <div className='Layout'>
-    <Layout siteTitle='Website' pageTitle="Mission" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+    <Layout pageTitle="Mission" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <h1>Mission statement</h1>
       <p>We are a coalition of organizations across all 50 US states that is actively working to reform the United States healthcare system so that everyone is guaranteed comprehensive cradle to grave health care regardless of their ability to pay.</p>

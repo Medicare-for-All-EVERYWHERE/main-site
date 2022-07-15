@@ -5,7 +5,7 @@ import '../../styles/styles.scss'
 
 const MediaPage = () =>
   <div className='Layout'>
-    <Layout siteTitle='Website' pageTitle="Media" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+    <Layout pageTitle="Media" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <h1>Press</h1>
       <p>Medicare for All EVERYWHERE has not even existed for a year and has already been covered in publications and podcasts.</p>

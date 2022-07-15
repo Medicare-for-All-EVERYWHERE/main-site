@@ -5,7 +5,7 @@ import '../../styles/styles.scss'
 
 const ConductPage = () =>
   <div className='Layout'>
-    <Layout siteTitle='Website' pageTitle="Code of Conduct" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+    <Layout pageTitle="Code of Conduct" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <h1>Code of Conduct</h1>
       <p><strong><a href='https://actionnetwork.org/forms/code-of-conduct-2?source=direct_link&'>Please click here to view and agree to our Code of Conduct.</a></strong></p>

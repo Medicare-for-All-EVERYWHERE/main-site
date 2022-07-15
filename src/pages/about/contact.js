@@ -5,7 +5,7 @@ import '../../styles/styles.scss'
 
 const ContactPage = () =>
   <div className='Layout'>
-    <Layout siteTitle='Website' pageTitle="Contact" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+    <Layout pageTitle="Contact" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <h1>Contact</h1>
       <p>You can contact Medicare for All EVERYWHERE via email at <strong><a href='mailto=massmovement@gmail.com'>massmovement@gmail.com</a></strong>.</p>

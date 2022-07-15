@@ -5,7 +5,7 @@ import '../../styles/styles.scss'
 
 const AboutPage = () =>
   <div className='Layout'>
-    <Layout pageTitle="About" siteTitle='Website' sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+    <Layout pageTitle="About" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <h1>About</h1>
       <p>Medicare for All EVERYWHERE held its first meeting in October 2021 and has in its short time organized several actions across multiple states and in Washington D.C.</p>
