@@ -26,6 +26,7 @@ header {
   }
 
   #HeaderLogo {
+    padding: 0;
     background-image: url('../images/icon.png');
     background-size: $headerHeight - 10;
     height: $headerHeight - 10;
@@ -63,6 +64,9 @@ header {
   }
   
   .headerItem {
+    > a:not(.button) {
+      padding: 0 5px 0 5px;
+    }
     ul {
       transition: visibility 0s, opacity 0.3s linear;
       position: absolute;
