@@ -16,12 +16,18 @@ header {
     color: $primary;
     font-size: 14pt;
     font-weight: normal;
-    transition: color 0.3s ease;
-    text-decoration: none;
     text-transform: uppercase;
     width: auto;
+    overflow: hidden;
+
+    /* Left-to-right hover animation */
+    /* Implementation taken from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
+    background: linear-gradient(to left, transparent 50%, $primaryaccent 50%) right;
+    background-size: 200%;
+    transition: .3s ease-in-out;
     &:hover {
       background-color: $primaryaccent;
+      background-position: left;
     }
   }
 
