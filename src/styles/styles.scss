@@ -110,8 +110,15 @@ aside {
     display: block;
     color: black;
     padding-left: 5px;
+
+    /* Left-to-right hover animation */
+    /* Implementation taken from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
+    background: linear-gradient(to left, transparent 50%, $primaryaccent 50%) right;
+    background-size: 200%;
+    transition: .3s ease-in-out;
     &:hover {
-      text-decoration: underline;
+      background-position: left;
+      background-color: $primaryaccent;
     }
   }
   hr {
