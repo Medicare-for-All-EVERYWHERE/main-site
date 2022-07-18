@@ -58,15 +58,14 @@ ol > li {
   transition: transform 0.5s;
   &:hover {
     color: white;
-    background-color: $secondaryaccent;
-    text-decoration: underline;
+    background-color: darken($secondaryaccent,10%);
+    text-decoration: none;
     transform: scale(0.95);
   }
 }
 
 .button:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
 }
 
 .middle {

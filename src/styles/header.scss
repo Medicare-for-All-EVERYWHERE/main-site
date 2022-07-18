@@ -22,10 +22,12 @@ header {
 
     /* Left-to-right hover animation */
     /* Implementation taken from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
-    background: linear-gradient(to left, transparent 50%, $primaryaccent 50%) right;
-    background-size: 200%;
-    transition: .3s ease-in-out;
-    &:hover {
+    & {
+      background: linear-gradient(to left, transparent 50%, $primaryaccent 50%) right;
+      background-size: 200%;
+      transition: .3s ease-in-out;
+    }
+    &:hover:not(.button) {
       background-color: $primaryaccent;
       background-position: left;
     }
