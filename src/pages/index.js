@@ -14,7 +14,7 @@ const IndexPage = () =>
       <h1>Seattle March for #HealthcareJustice - July 30th 2022</h1>
       <p>Medicare for All EVERYWHERE is proud to be a co-sponsor of the 2022 Seattle March for Healthcare Justice. This action is both a celebration of Medicare's 57th birthday, as well as a demand for its protection and expansion into National Imrproved Medicare for All.</p>
       <img src='https://can2-prod.s3.amazonaws.com/events/photos/001/181/459/original/march.jpg' alt='The 2021 Seattle March for Medicare for All'/>
-      <a class='button' href='https://actionnetwork.org/events/save-the-date-march-for-healthcare-justice-celebrating-57-years-of-medicare'>RSVP</a>
+      <a class='button' href='https://actionnetwork.org/events/save-the-date-march-for-healthcare-justice-celebrating-57-years-of-medicare' target='_blank'>RSVP</a>
     </main>
   </Layout>
 export default IndexPage
