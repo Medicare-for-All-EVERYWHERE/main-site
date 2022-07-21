@@ -87,11 +87,15 @@ export const AboutSidebarLinks = [
 
 export const MarchSidebarLinks = [
   {
-    text: "Seattle",
+    text: "2022 Marches",
+    url: '/march'
+  },
+  {
+    text: "Seattle 7/30",
     url: "/march/seattle",
   },
   {
-    text: "Portland",
+    text: "Portland 7/30",
     url: "/march/portland",
   },
 ];
