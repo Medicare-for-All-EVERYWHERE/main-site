@@ -18,7 +18,7 @@
   color: rgb(88, 87, 87);
   &:hover {
     color: $darkprimary;
-    background-color: lighten($lightprimary, 12);
+    background-color: lighten($primaryaccent, 35);
     img {
       opacity: .8;
     }
