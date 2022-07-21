@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import '../styles/Footer.scss'
 import {FooterSocialLinks} from '../helpers/constants'
 
-const Footer = ({organization='Organization'}) =>
+const Footer = ({organization='Medicare for All EVERYWHERE'}) =>
   <footer>
     <div className='container'>
       <div className='socialMediaLinks'>
