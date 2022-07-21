@@ -19,6 +19,10 @@ export const HeaderLinks = [
         text: "Portland",
         url: "/march/portland",
       },
+      {
+        text: "San Francisco",
+        url: "/march/san-francisco",
+      },
     ],
   },
   {
@@ -97,6 +101,10 @@ export const MarchSidebarLinks = [
   {
     text: "Portland 7/30",
     url: "/march/portland",
+  },
+  {
+    text: "San Francisco 7/30",
+    url: "/march/san-francisco",
   },
 ];
 
