@@ -9,7 +9,17 @@ export const HeaderLinks = [
   },
   {
     text: "March",
-    url: "/march"
+    url: "/march",
+    sublinks: [
+      {
+        text: "Seattle",
+        url: "/march/seattle",
+      },
+      {
+        text: "Portland",
+        url: "/march/portland",
+      },
+    ],
   },
   {
     text: "Volunteer",
@@ -75,22 +85,33 @@ export const AboutSidebarLinks = [
   },
 ];
 
+export const MarchSidebarLinks = [
+  {
+    text: "Seattle",
+    url: "/march/seattle",
+  },
+  {
+    text: "Portland",
+    url: "/march/portland",
+  },
+];
+
 export const FooterSocialLinks = [
   {
     text: "Twitter",
-    url: "https://twitter.com/GatsbyJS",
+    url: "https://twitter.com/m4a_everywhere",
     logo: TwitterLogo,
     title: 'Follow us on Twitter',
   },
   {
     text: "GitHub",
-    url: "https://github.com/CaptainStack/gatsby-static-template",
+    url: "https://github.com/Medicare-for-All-EVERYWHERE/main-site",
     logo: GitHubLogo,
     title: 'View source on GitHub',
   },
   {
     text: "Email",
-    url: "mailto:contact@email.com",
+    url: "mailto:massmovement.healthcare@gmail.com",
     logo: EmailLogo,
     title: 'Send us an email',
   },
