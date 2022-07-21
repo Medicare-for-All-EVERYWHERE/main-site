@@ -91,7 +91,7 @@ export const AboutSidebarLinks = [
 
 export const MarchSidebarLinks = [
   {
-    text: "2022 Marches",
+    text: "Marches & Rallies",
     url: '/march'
   },
   {
