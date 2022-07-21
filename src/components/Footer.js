@@ -1,17 +1,19 @@
 import * as React from "react"
 import Logo from "../images/logo.png"
 import { Link } from 'gatsby'
+import '../styles/Footer.scss'
+import {FooterSocialLinks} from '../helpers/constants'
 
-const Footer = () =>
+const Footer = ({organization='Organization'}) =>
   <footer>
     <div className='container'>
-      <div>
-        <a href='https://twitter.com/M4A_Everywhere' target='_blank' rel='noreferrer'>Twitter</a>
-        <a href='https://github.com/Medicare-for-All-EVERYWHERE/main-site' target='_blank' rel='noreferrer'>Github</a>
-        <a href="mailto:massmovement.healthcare@gmail.com" target='_blank' rel='noreferrer'>Email</a>
+      <div className='socialMediaLinks'>
+      {
+        FooterSocialLinks.map(link => <a href={link.url} title={link.title} target='_blank' rel='noreferrer'><img src={link.logo} alt={link.title}/></a>)
+      }
       </div>
-      <Link to='/'><img src={Logo} alt="Logo"/></Link>
-      <p>© Medicare for All EVERYWHERE {new Date().getFullYear()}.</p>
+      <Link href='/' target='_blank' rel='noopener noreferrer'><img src={Logo} alt="Logo"/></Link>
+      <p>© {organization} {new Date().getFullYear()}.</p>
     </div>
   </footer>
 

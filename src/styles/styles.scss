@@ -21,24 +21,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, a {
   color: $primary;
   text-decoration: none;
 }
 
-a {
-  color: $secondaryaccent;
-  font-weight: bold;
-  text-decoration: none;
-  transition: color .2s,background-color .1s,fill .1s;
-}
-
-h1 {
-  background-color: $primaryaccent;
-  padding: 0 5px 0 5px;
-}
-
-a:hover {
+.button {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin: 1rem;
+  margin-left: 0;
+  border-radius:10px;
+  background-image: none;
+  background-color: $primary;
   text-decoration: none;
   color: $primary;
 }
@@ -82,6 +76,13 @@ main {
   align-items: flex-start;
   flex-direction: column;
   flex: 1;
+  a {
+    color: $primaryaccent;
+    font-weight: bold;
+    &:hover {
+      color: $darkprimary;
+    }
+  }
   & > {
     img, a img {
       width: 100%;
@@ -103,66 +104,9 @@ main {
   align-self: center;
 }
 
-aside {
-  flex-basis: 140px;
-  a {
-    display: block;
-    color: black;
-    padding-left: 5px;
-
-    /* Left-to-right hover animation */
-    /* Implementation taken from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
-    background: linear-gradient(to left, transparent 50%, $primaryaccent 50%) right;
-    background-size: 200%;
-    transition: .4s ease-in-out;
-    &:hover {
-      background-position: left;
-      background-color: $primaryaccent;
-    }
-  }
-  hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 0;
-        border-top-color: $midprimary;
-        border-top-style: none;
-        border-top-width: 0px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: $midprimary;
-  }
-  margin-top: 20px;
-}
-
 .active {
   background-color: $primaryaccent;
 }
-
-footer {
-  text-align: center;
-  height: 400px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: $darkprimary;
-  color: lightgray;
-  display: flex;
-  justify-content: center;
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    div a {
-      margin: 10px;
-      color: lightgray;
-    }
-  }
-  img {
-    max-width: 150px;
-    max-height: 150px;
-    margin-top: 20px;
-  }
-}
-
 
 .container {
   width: $content-width;
@@ -181,26 +125,4 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.InfoCard {
-  outline: 1px solid lightgray;
-  display: inline-block;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 10px;
-  max-width: 200px;
-  p {
-    overflow-wrap: anywhere; 
-  }
-  margin: 10px;
-  padding: 12px;
-  color: rgb(88, 87, 87);
-  &:hover {
-    color: $darkprimary;
-    background-color: lighten($primaryaccent, 30);
-    img {
-      opacity: .8;
-    }
-  }
 }
