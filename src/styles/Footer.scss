@@ -27,6 +27,14 @@ footer {
     img {
       max-height: 30px;
       max-width: 30px;
+      
+      // Change the background-color of the social media img svgs on hover
+      // Implementation based on this Stack Overflow answer
+      // https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element
+      // Must be set separately from other $primaryaccent colors.
+      &:hover {
+        filter: brightness(0) saturate(100%) invert(77%) sepia(85%) saturate(867%) hue-rotate(8deg) brightness(103%) contrast(107%);
+      }
     }
   }
 }
