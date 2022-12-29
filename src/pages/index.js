@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const IndexPage = () =>
   <Layout pageTitle="Home" activeHeaderLink="Home">
     <h1 style={{marginBottom:0}}>Medicare for All EVERYWHERE</h1>
-    <StaticImage src='../images/jigsaw-map.png' alt="US map jigsaw puzzle" style={{margin:0}} placeholder='blurred'/>
+    <StaticImage src='../images/jigsaw-map.webp' alt="US map jigsaw puzzle" style={{margin:0}} placeholder='blurred'/>
     <p>Medicare for All EVERYWHERE is an aspiring coalition that includes every US state and territory working in collaboration to build a mass movement with the political power to win national improved Medicare for All federally.</p>
     <p>We believe that Medicare for All will not happen in a vacuum, nor will it be handed down from the top. It will be won through a bottom-up mass movement. Our strategy is to create a universal campaign for universal healthcare that unites the many statewide campaigns for single payer healthcare with a national strategy for Medicare for All.</p>
   </Layout>
