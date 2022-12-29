@@ -8,6 +8,10 @@ export const HeaderLinks = [
     url: "/",
   },
   {
+    text: "Events",
+    url: "/events",
+  },
+  {
     text: "March",
     url: "/march",
     sublinks: [
