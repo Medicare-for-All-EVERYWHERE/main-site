@@ -21,7 +21,7 @@ header {
     overflow: hidden;
 
     /* Don't show this animation on mobile */
-    @media (min-width: 600px) {
+    @media (min-width: 1000px) {
       /* Left-to-right hover animation */
       /* Implementation taken from https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css */
       & {
@@ -100,7 +100,7 @@ header {
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     & {
       height: auto;
     }
