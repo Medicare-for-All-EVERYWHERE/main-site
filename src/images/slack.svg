@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 26.5.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 499.99999 499.99999"
+   xml:space="preserve"
+   sodipodi:docname="slack.svg"
+   width="500"
+   height="500"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs21908" /><sodipodi:namedview
+   id="namedview21906"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="0.67240617"
+   inkscape:cx="-214.15627"
+   inkscape:cy="168.05319"
+   inkscape:window-width="2560"
+   inkscape:window-height="1377"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style21877">
+	.st0{fill:#FFFFFF;}
+</style>
+<g
+   id="g21903"
+   transform="matrix(4.0716612,0,0,4.0716612,-299.67426,-299.67426)"
+   style="fill:#ffffff;fill-opacity:1">
+	<g
+   id="g21883"
+   style="fill:#ffffff;fill-opacity:1">
+		<path
+   class="st0"
+   d="m 99.4,151.2 c 0,7.1 -5.8,12.9 -12.9,12.9 -7.1,0 -12.9,-5.8 -12.9,-12.9 0,-7.1 5.8,-12.9 12.9,-12.9 h 12.9 z"
+   id="path21879"
+   style="fill:#ffffff;fill-opacity:1" />
+		<path
+   class="st0"
+   d="m 105.9,151.2 c 0,-7.1 5.8,-12.9 12.9,-12.9 7.1,0 12.9,5.8 12.9,12.9 v 32.3 c 0,7.1 -5.8,12.9 -12.9,12.9 -7.1,0 -12.9,-5.8 -12.9,-12.9 0,0 0,-32.3 0,-32.3 z"
+   id="path21881"
+   style="fill:#ffffff;fill-opacity:1" />
+	</g>
+	<g
+   id="g21889"
+   style="fill:#ffffff;fill-opacity:1">
+		<path
+   class="st0"
+   d="m 118.8,99.4 c -7.1,0 -12.9,-5.8 -12.9,-12.9 0,-7.1 5.8,-12.9 12.9,-12.9 7.1,0 12.9,5.8 12.9,12.9 v 12.9 z"
+   id="path21885"
+   style="fill:#ffffff;fill-opacity:1" />
+		<path
+   class="st0"
+   d="m 118.8,105.9 c 7.1,0 12.9,5.8 12.9,12.9 0,7.1 -5.8,12.9 -12.9,12.9 H 86.5 c -7.1,0 -12.9,-5.8 -12.9,-12.9 0,-7.1 5.8,-12.9 12.9,-12.9 0,0 32.3,0 32.3,0 z"
+   id="path21887"
+   style="fill:#ffffff;fill-opacity:1" />
+	</g>
+	<g
+   id="g21895"
+   style="fill:#ffffff;fill-opacity:1">
+		<path
+   class="st0"
+   d="m 170.6,118.8 c 0,-7.1 5.8,-12.9 12.9,-12.9 7.1,0 12.9,5.8 12.9,12.9 0,7.1 -5.8,12.9 -12.9,12.9 h -12.9 z"
+   id="path21891"
+   style="fill:#ffffff;fill-opacity:1" />
+		<path
+   class="st0"
+   d="m 164.1,118.8 c 0,7.1 -5.8,12.9 -12.9,12.9 -7.1,0 -12.9,-5.8 -12.9,-12.9 V 86.5 c 0,-7.1 5.8,-12.9 12.9,-12.9 7.1,0 12.9,5.8 12.9,12.9 z"
+   id="path21893"
+   style="fill:#ffffff;fill-opacity:1" />
+	</g>
+	<g
+   id="g21901"
+   style="fill:#ffffff;fill-opacity:1">
+		<path
+   class="st0"
+   d="m 151.2,170.6 c 7.1,0 12.9,5.8 12.9,12.9 0,7.1 -5.8,12.9 -12.9,12.9 -7.1,0 -12.9,-5.8 -12.9,-12.9 v -12.9 z"
+   id="path21897"
+   style="fill:#ffffff;fill-opacity:1" />
+		<path
+   class="st0"
+   d="m 151.2,164.1 c -7.1,0 -12.9,-5.8 -12.9,-12.9 0,-7.1 5.8,-12.9 12.9,-12.9 h 32.3 c 7.1,0 12.9,5.8 12.9,12.9 0,7.1 -5.8,12.9 -12.9,12.9 z"
+   id="path21899"
+   style="fill:#ffffff;fill-opacity:1" />
+	</g>
+</g>
+</svg>
