@@ -16,7 +16,7 @@ const ToolkitPage = () =>
       <div className='row'>
         <InfoCard
           title="USA Jigsaw Map"
-          link='https://drive.google.com/file/d/1Xp5U7DHSYlwhuzxyd1QxXtzVumrjGLdr/view?usp=share_link'
+          link='https://drive.google.com/file/d/1WevB2aJ-CVqG-hRWDoWLKEGj-C3GGTS9/view?usp=share_link'
           image={Andre}
         />
         <InfoCard
