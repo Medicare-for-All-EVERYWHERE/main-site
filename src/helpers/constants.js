@@ -64,6 +64,10 @@ export const HeaderLinks = [
         text: "Contact",
         url: "/about/contact",
       },
+      {
+        text: "Digital Toolkit",
+        url: "/about/toolkit",
+      },
     ],
   },
   {
@@ -102,6 +106,10 @@ export const AboutSidebarLinks = [
   {
     text: "Contact",
     url: "/about/contact",
+  },
+  {
+    text: "Digital Toolkit",
+    url: "/about/toolkit",
   },
 ];
 
