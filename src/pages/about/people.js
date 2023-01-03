@@ -18,13 +18,13 @@ const PeoplePage = () =>
         <InfoCard
           title="Andre Stackhouse"
           link='https://captainstack.github.io/public-stackhouse'
-          description='Andre is the campaign director of Whole Washington and sits on the DSA Medicare for All National Steering Committee.'
+          description='Andre is the campaign director of Whole Washington and sits on the DSA Medicare for All National Steering Committee. His background is in information science and computer software.'
           image={Andre}
         />
         <InfoCard
           title="Terence Cudney"
           link='https://www.cudney4ma.com'
-          description='Terence is an independent candidate for the Massachussets State Senate and is on the November 2022 ballot.'
+          description='Terence was independent candidate for the Massachussets State Senate in November of 2022 and has a background in tech entrepreneurship and international relations.'
           image={Terence}
         />
         <InfoCard
