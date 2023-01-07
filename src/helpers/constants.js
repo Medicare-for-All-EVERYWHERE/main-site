@@ -1,3 +1,4 @@
+import YouTubeLogo from '../images/youtube.svg'
 import TwitterLogo from '../images/twitter.svg'
 import MastodonLogo from '../images/mastodon.svg'
 import GitHubLogo from '../images/github.svg'
@@ -137,6 +138,12 @@ export const MarchSidebarLinks = [
 ];
 
 export const FooterSocialLinks = [
+  {
+    text: "YouTube",
+    url: "https://www.youtube.com/channel/UC9dIXmwYPLjxt5uNcYnNJiQ",
+    logo: YouTubeLogo,
+    title: 'Watch us on YouTube',
+  },
   {
     text: "Twitter",
     url: "https://twitter.com/m4a_everywhere",

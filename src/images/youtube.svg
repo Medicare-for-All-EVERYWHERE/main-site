@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="463.60965"
+   height="324.00101"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="youtube.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect250"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <filter
+       id="mask-powermask-path-effect233_inverse"
+       inkscape:label="filtermask-powermask-path-effect233"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect233_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect233_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath246">
+      <path
+         d="M 105,55 64.2,31.6 v 46.8 z"
+         fill="#ffffff"
+         id="path248"
+         style="display:none" />
+      <path
+         id="lpe_path-effect250"
+         class="powerclip"
+         d="M -3.7642322,-4.5734134 H 162.4667 V 114.61107 H -3.7642322 Z M 105,55 64.2,31.6 v 46.8 z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3452818"
+     inkscape:cx="146.43772"
+     inkscape:cy="286.92874"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M 154,17.5 C 152.18,10.77 146.93,5.5 140.2,3.7 131.16,0.21 43.6,-1.5 18.2,3.8 11.47,5.62 6.2,10.87 4.4,17.6 0.32,35.5 0.01,74.2 4.5,92.5 c 1.82,6.73 7.07,12 13.8,13.8 17.9,4.12 103,4.7 122,0 6.73,-1.82 12,-7.07 13.8,-13.8 4.35,-19.5 4.66,-55.8 -0.1,-75 z"
+     fill="#ff0000"
+     id="path2"
+     clip-path="url(#clipPath246)"
+     inkscape:path-effect="#path-effect250"
+     inkscape:original-d="M 154,17.5 C 152.18,10.77 146.93,5.5 140.2,3.7 131.16,0.21 43.6,-1.5 18.2,3.8 11.47,5.62 6.2,10.87 4.4,17.6 0.32,35.5 0.01,74.2 4.5,92.5 c 1.82,6.73 7.07,12 13.8,13.8 17.9,4.12 103,4.7 122,0 6.73,-1.82 12,-7.07 13.8,-13.8 4.35,-19.5 4.66,-55.8 -0.1,-75 z"
+     transform="matrix(2.9674638,0,0,2.9674638,-3.6670962,-1.2658802)"
+     style="fill:#ffffff;fill-opacity:1" />
+</svg>
