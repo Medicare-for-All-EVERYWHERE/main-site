@@ -8,7 +8,7 @@ import Terence from '../../images/logo.png'
 
 const ToolkitPage = () =>
   <div className='Layout'>
-    <Layout pageTitle="Digital Toolkit" sidebarLinks={AboutSidebarLinks} activeHeaderLink="Ditital Toolkit">
+    <Layout pageTitle="Digital Toolkit" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <h1>Digital Toolkit</h1>
       <p>All of our logos, grapics, posters, literature, etc. are available in our digital toolkit.</p>
