@@ -159,7 +159,7 @@ export const FooterSocialLinks = [
   },
   {
     text: "Mastodon",
-    url: "https://twitter.com/m4a_everywhere",
+    url: "https://mstdn.social/@m4a_everywhere",
     logo: MastodonLogo,
     title: 'Follow us on Mastodon',
   },
