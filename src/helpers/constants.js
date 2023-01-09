@@ -1,4 +1,5 @@
 import YouTubeLogo from '../images/youtube.svg'
+import FacebookLogo from '../images/facebook.svg'
 import TwitterLogo from '../images/twitter.svg'
 import MastodonLogo from '../images/mastodon.svg'
 import GitHubLogo from '../images/github.svg'
@@ -143,6 +144,12 @@ export const FooterSocialLinks = [
     url: "https://www.youtube.com/channel/UC9dIXmwYPLjxt5uNcYnNJiQ",
     logo: YouTubeLogo,
     title: 'Watch us on YouTube',
+  },
+  {
+    text: "Facebook",
+    url: "https://www.facebook.com/M4AEverywhere",
+    logo: FacebookLogo,
+    title: "Follow us on Facebook",
   },
   {
     text: "Twitter",
