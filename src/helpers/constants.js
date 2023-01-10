@@ -4,6 +4,7 @@ import TwitterLogo from '../images/twitter.svg'
 import MastodonLogo from '../images/mastodon.svg'
 import GitHubLogo from '../images/github.svg'
 import OpenCollectiveLogo from '../images/open-collective.svg'
+import LinkedInLogo from '../images/linkedin.svg'
 import SlackLogo from '../images/slack.svg'
 import EmailLogo from '../images/email.svg'
 
@@ -174,6 +175,12 @@ export const FooterSocialLinks = [
     url: "https://opencollective.com/m4a-everywhere",
     logo: OpenCollectiveLogo,
     title: 'Donate and view finances on Open Collective',
+  },
+  {
+    text: "LinkedIn",
+    url: "https://www.linkedin.com/company/medicare-for-all-everywhere",
+    logo: LinkedInLogo,
+    title: 'Connect on LinkedIn',
   },
   {
     text: "Slack",
