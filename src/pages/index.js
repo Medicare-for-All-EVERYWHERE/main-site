@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const IndexPage = () =>
   <Layout pageTitle="Home" activeHeaderLink="Home">
     <h1>Medicare for All EVERYWHERE</h1>
-    <iframe src="https://www.youtube.com/embed/OXgLtBwtsRE" title="We need Medicare for All EVERYWHERE!" style={{width:'100%', height:455, frameborder:0, scrolling:'no'}} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id='videoPlayer' src="https://www.youtube.com/embed/OXgLtBwtsRE" title="We need Medicare for All EVERYWHERE!" style={{frameborder:0, scrolling:'no'}} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div className='row' style={{width:'100%', justifyContent:'space-around', alignItems:'center'}}><a className='button'>Sign up</a><a className='button'>Donate</a><a className='button'>Events</a></div>
     <h2>An aspiring coalition</h2>
     <p>Medicare for All EVERYWHERE is an aspiring coalition that includes every US state and territory working in collaboration to build a mass movement with the political power to win national improved Medicare for All federally.</p>

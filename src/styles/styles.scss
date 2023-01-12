@@ -141,3 +141,14 @@ main {
     width: auto;
   }
 }
+
+#videoPlayer {
+  width:100%;
+  height: 545px;
+}
+
+@media (max-width: 1000px) {
+  #videoPlayer {
+    max-height: 250px;
+  }
+}
