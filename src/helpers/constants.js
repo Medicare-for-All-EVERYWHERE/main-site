@@ -197,7 +197,7 @@ export const FooterSocialLinks = [
   },
   {
     text: "Email",
-    url: "mailto:massmovement.healthcare@gmail.com",
+    url: "mailto:info@medicareforalleverywhere.org",
     logo: EmailLogo,
     title: 'Send us an email',
   },
