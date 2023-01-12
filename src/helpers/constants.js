@@ -2,6 +2,7 @@ import YouTubeLogo from '../images/youtube.svg'
 import FacebookLogo from '../images/facebook.svg'
 import TwitterLogo from '../images/twitter.svg'
 import MastodonLogo from '../images/mastodon.svg'
+import RedditLogo from '../images/reddit.svg'
 import GitHubLogo from '../images/github.svg'
 import OpenCollectiveLogo from '../images/open-collective.svg'
 import LinkedInLogo from '../images/linkedin.svg'
@@ -163,6 +164,12 @@ export const FooterSocialLinks = [
     url: "https://mstdn.social/@m4a_everywhere",
     logo: MastodonLogo,
     title: 'Follow us on Mastodon',
+  },
+  {
+    text: "Reddit",
+    url: "https://www.reddit.com/u/M4A_Everywhere/",
+    logo: RedditLogo,
+    title: 'Upvote on Reddit',
   },
   {
     text: "GitHub",
