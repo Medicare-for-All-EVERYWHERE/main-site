@@ -25,6 +25,13 @@ const ToolkitPage = () =>
           image={Terence}
         />
       </div>
+      <h2>Color theme</h2>
+      <ul>
+        <li>Primary Accent: <a href='https://www.color-hex.com/color/f8e71c' target='_blank'><span style={{backgroundColor:'#F8E71C', color:'black', border:'1px solid lightgrey', padding:5}}><strong>#F8E71C</strong></span></a></li>
+        <li>Secondary Accent: <a href='https://www.color-hex.com/color/4f7177' target='_blank'><span style={{backgroundColor:'#4f7177', color:'white', border:'1px solid lightgrey', padding:5}}><strong>#4F7177</strong></span></a></li> 
+        <li>Light Primary: <a href='https://www.color-hex.com/color/e9e7e8' target='_blank'><span style={{backgroundColor:'#e9e7e8', color:'black', border:'1px solid lightgrey', padding:5}}><strong>#E9E7E8</strong></span></a></li> 
+        <li>Dark Primary: <a href='https://www.color-hex.com/color/444745' target='_blank'><span style={{backgroundColor:'#444745', color:'white', border:'1px solid lightgrey', padding:5}}><strong>#444745</strong></span></a></li> 
+      </ul>
     </main>
     </Layout>
   </div>
