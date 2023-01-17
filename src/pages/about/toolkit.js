@@ -3,8 +3,9 @@ import Layout from '../../components/Layout'
 import InfoCard from '../../components/InfoCard'
 import { AboutSidebarLinks } from '../../helpers/constants'
 import '../../styles/styles.scss'
-import Andre from '../../images/jigsaw-map.webp'
-import Terence from '../../images/logo.png'
+import JigsawMap from '../../images/jigsaw-map.webp'
+import Logo from '../../images/logo.png'
+import MLKQuote from '../../images/mlk-quote.png'
 
 const ToolkitPage = () =>
   <div className='Layout'>
@@ -16,13 +17,18 @@ const ToolkitPage = () =>
       <div className='row'>
         <InfoCard
           title="USA Jigsaw Map"
-          link='https://drive.google.com/file/d/1WevB2aJ-CVqG-hRWDoWLKEGj-C3GGTS9/view?usp=share_link'
-          image={Andre}
+          link='https://drive.google.com/drive/folders/1cYDrzeg9LJVxDVu_Cga0QYpEiMUXMb7I?usp=share_link'
+          image={JigsawMap}
         />
         <InfoCard
-          title="M4A-E Logo Large"
-          link='https://drive.google.com/file/d/1Xp5U7DHSYlwhuzxyd1QxXtzVumrjGLdr/view?usp=share_link'
-          image={Terence}
+          title="M4A-E Logo"
+          link='https://drive.google.com/drive/folders/1WdhDnUjq14WwEQbVgk19Os16L4bpaUqc?usp=share_link'
+          image={Logo}
+        />
+        <InfoCard
+          title="MLK Quote"
+          link='https://drive.google.com/drive/folders/1j9GzWl6rGl1UZ5BZpdujuGk3KEmmcDM5?usp=share_link'
+          image={MLKQuote}
         />
       </div>
       <h2>Color theme</h2>
