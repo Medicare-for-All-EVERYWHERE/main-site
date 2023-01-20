@@ -204,7 +204,7 @@ export const FooterSocialLinks = [
   },
   {
     text: "Phone",
-    url: "tel:+2029879953",
+    url: "tel:+12029879953",
     logo: PhoneLogo,
     title: 'Give us a call',
   },
