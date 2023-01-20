@@ -8,6 +8,7 @@ import OpenCollectiveLogo from '../images/open-collective.svg'
 import LinkedInLogo from '../images/linkedin.svg'
 import SlackLogo from '../images/slack.svg'
 import EmailLogo from '../images/email.svg'
+import PhoneLogo from '../images/phone.svg'
 
 export const HeaderLinks = [
   {
@@ -200,5 +201,11 @@ export const FooterSocialLinks = [
     url: "mailto:info@medicareforalleverywhere.org",
     logo: EmailLogo,
     title: 'Send us an email',
+  },
+  {
+    text: "Phone",
+    url: "tel:+2029879953",
+    logo: PhoneLogo,
+    title: 'Give us a call',
   },
 ];
