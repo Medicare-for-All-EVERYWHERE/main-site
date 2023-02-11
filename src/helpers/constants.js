@@ -1,3 +1,4 @@
+import TikTokLogo from '../images/tiktok.svg'
 import YouTubeLogo from '../images/youtube.svg'
 import InstgramLogo from '../images/instagram.svg'
 import FacebookLogo from '../images/facebook.svg'
@@ -143,6 +144,12 @@ export const MarchSidebarLinks = [
 ];
 
 export const FooterSocialLinks = [
+  {
+    text: "TikTok",
+    url: "https://www.tiktok.com/@m4a_everywhere",
+    logo: TikTokLogo,
+    title: 'Follow us on TikTok',
+  },
   {
     text: "YouTube",
     url: "https://www.youtube.com/channel/UC9dIXmwYPLjxt5uNcYnNJiQ",
