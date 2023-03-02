@@ -7,6 +7,7 @@ import JigsawMap from '../../images/jigsaw-map.webp'
 import Logo from '../../images/logo.png'
 import MLKQuote from '../../images/mlk-quote.png'
 import BusinessCard from '../../images/business-card.png'
+import Literature from '../../images/literature.png'
 
 const ToolkitPage = () =>
   <div className='Layout'>
@@ -35,6 +36,11 @@ const ToolkitPage = () =>
           title="Business Cards"
           link='https://drive.google.com/drive/folders/1OYuwFNzESFK9JAW3pQw5FPd5Y7AxFoqG?usp=share_link'
           image={BusinessCard}
+        />
+        <InfoCard
+          title="Literature"
+          link='https://drive.google.com/drive/folders/1865-gh4wY63BajmJDuG4_a2HnkLKZv-s?usp=share_link'
+          image={Literature}
         />
       </div>
       <h2>Color theme</h2>
