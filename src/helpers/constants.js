@@ -60,6 +60,10 @@ export const HeaderLinks = [
         url: "/about/people",
       },
       {
+        text: "Open Positions",
+        url: "/about/positions",
+      },
+      {
         text: "Code of Conduct",
         url: "/about/conduct",
       },
@@ -101,6 +105,10 @@ export const AboutSidebarLinks = [
   {
     text: "People",
     url: "/about/people",
+  },
+  {
+    text: "Open Positions",
+    url: "/about/positions",
   },
   {
     text: "Code of Conduct",

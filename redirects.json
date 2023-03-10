@@ -1,5 +1,9 @@
 [
   {
+    "fromPath": "/jobs",
+    "toPath": "/about/positions"
+  },
+  {
     "fromPath": "/print",
     "toPath": "/about/toolkit"
   },
