@@ -1,4 +1,5 @@
 import * as React from "react"
+import '../styles/Notification.scss'
 
 const Notification = ({pageTitle, notificationText, link}) =>
   <div id='Notification'>
