@@ -8,6 +8,7 @@ import Logo from '../../images/logo.png'
 import MLKQuote from '../../images/mlk-quote.png'
 import BusinessCard from '../../images/business-card.png'
 import Literature from '../../images/literature.png'
+import SignupForm from '../../images/signup-form.png'
 
 const ToolkitPage = () =>
   <div className='Layout'>
@@ -41,6 +42,11 @@ const ToolkitPage = () =>
           title="Literature"
           link='https://drive.google.com/drive/folders/1865-gh4wY63BajmJDuG4_a2HnkLKZv-s?usp=share_link'
           image={Literature}
+        />
+        <InfoCard
+          title="Sign Up Form"
+          link='https://drive.google.com/drive/folders/1HOr3ObT7Y4Tt2HdllP7p4cIJAyFCj1xa?usp=share_link'
+          image={SignupForm}
         />
       </div>
       <h2>Color theme</h2>

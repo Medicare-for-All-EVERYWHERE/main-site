@@ -2,5 +2,9 @@
   {
     "fromPath": "/print",
     "toPath": "/about/toolkit"
+  },
+  {
+  "fromPath": "/signup",
+  "toPath": "https://actionnetwork.org/forms/medicare-for-all-everywhere-action-takers?source=signup_redirect"
   }
 ]
