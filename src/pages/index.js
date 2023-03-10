@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const IndexPage = () =>
   <Layout pageTitle="Home" activeHeaderLink="Home">
     <h1>Medicare for All Everywhere</h1>
-    <iframe id='videoPlayer' src="https://www.youtube.com/embed/OXgLtBwtsRE" title="We need Medicare for All EVERYWHERE!" style={{frameborder:0, scrolling:'no'}} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id='videoPlayer' src="https://www.youtube.com/embed/OXgLtBwtsRE" title="We need Medicare for All Everywhere!" style={{frameborder:0, scrolling:'no'}} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div className='row' style={{width:'100%', justifyContent:'space-around', alignItems:'center'}}>
       <a className='button' href='https://actionnetwork.org/forms/medicare-for-all-everywhere-action-takers?source=direct_link&'>Sign up</a>
       <a className='button' href='https://opencollective.com/m4a-everywhere/contribute/custom-donation-50029/checkout?interval=month&platformTip=0&amount=27'>Donate</a>

@@ -9,7 +9,7 @@ const ConductPage = () =>
     <main>
       <h1>Code of Conduct</h1>
       <p><a href='https://actionnetwork.org/forms/code-of-conduct-2?source=direct_link&' target='blank'>Please click here to view and agree to our Code of Conduct.</a></p>
-      <p>The following Code of Conduct applies both to our meetings and our digital communities (Slack, Twitter DM Groups, etc). You may be removed from any Medicare for All EVERYWHERE space for failing to abide by the following rules.</p>
+      <p>The following Code of Conduct applies both to our meetings and our digital communities (Slack, Twitter DM Groups, etc). You may be removed from any Medicare for All Everywhere space for failing to abide by the following rules.</p>
       <ul>
         <li>No personal attacks</li>
         <li>No yelling</li>
