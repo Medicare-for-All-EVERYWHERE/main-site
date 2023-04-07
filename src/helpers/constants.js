@@ -27,7 +27,7 @@ export const HeaderLinks = [
     sublinks: [
       {
         text: "July 2023",
-        url: "/march/2023",
+        url: "/march",
       },
       {
         text: "2022 Events",
