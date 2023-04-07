@@ -133,6 +133,9 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  .button {
+    margin-right: 10px;
+  }
 }
 
 #can-form-area-contact-medicare-for-all-everywhere {

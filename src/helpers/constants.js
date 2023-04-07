@@ -26,20 +26,12 @@ export const HeaderLinks = [
     url: "/march",
     sublinks: [
       {
-        text: "Seattle",
-        url: "/march/seattle",
+        text: "July 2023",
+        url: "/march/2023",
       },
       {
-        text: "Portland",
-        url: "/march/portland",
-      },
-      {
-        text: "San Francisco",
-        url: "/march/san-francisco",
-      },,
-      {
-        text: "Asheville",
-        url: "/march/asheville",
+        text: "2022 Events",
+        url: "/march/2022",
       },
     ],
   },
@@ -130,24 +122,12 @@ export const AboutSidebarLinks = [
 
 export const MarchSidebarLinks = [
   {
-    text: "Marches & Rallies",
+    text: "July 2023",
     url: '/march'
   },
   {
-    text: "Seattle, WA",
-    url: "/march/seattle",
-  },
-  {
-    text: "Portland, OR",
-    url: "/march/portland",
-  },
-  {
-    text: "San Francisco, CA",
-    url: "/march/san-francisco",
-  },
-  {
-    text: "Asheville, NC",
-    url: "/march/asheville",
+    text: "2022 Events",
+    url: "/march/2022",
   },
 ];
 
