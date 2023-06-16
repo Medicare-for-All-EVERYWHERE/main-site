@@ -22,16 +22,16 @@ export const HeaderLinks = [
     url: "/events",
   },
   {
-    text: "March",
-    url: "/march",
+    text: "July Actions",
+    url: "/actions",
     sublinks: [
       {
         text: "July 2023",
-        url: "/march",
+        url: "/actions",
       },
       {
         text: "2022 Events",
-        url: "/march/2022",
+        url: "/actions/2022",
       },
     ],
   },
