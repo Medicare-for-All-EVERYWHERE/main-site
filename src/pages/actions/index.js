@@ -11,7 +11,7 @@ const MarchPage = () =>
     <p>If you would like to attend or help organize a healthcare justice event this July, please! </p>
     <div className='row'>
       <a className='button' href='https://actionnetwork.org/events/march-for-healthcare-justice-seattle-washington?source=website' target='_blank'>Seattle, WA</a>
-      <a className='button' href='https://actionnetwork.org/events/march-for-healthcare-justice-boston-massachussets?source=website&' target='_blank'>Boston, MA</a>
+      <a className='button' href='https://actionnetwork.org/events/march-for-healthcare-justice-boston-massachussets?source=website&' target='_blank'>Salem, MA</a>
       <a className='button' href='https://actionnetwork.org/events/march-for-healthcare-justice-circle-pines-minnesota?source=website&' target='_blank'>Edina, MN</a>
     </div>
     <div className='row'>
